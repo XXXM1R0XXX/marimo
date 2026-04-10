@@ -6,28 +6,32 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/marimo/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/marimo?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/marimo/issues"><img src="https://img.shields.io/github/issues/catppuccin/marimo?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/marimo/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/marimo?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/XXXM1R0XXX/marimo/stargazers"><img src="https://img.shields.io/github/stars/XXXM1R0XXX/marimo?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/XXXM1R0XXX/marimo/issues"><img src="https://img.shields.io/github/issues/XXXM1R0XXX/marimo?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/XXXM1R0XXX/marimo/contributors"><img src="https://img.shields.io/github/contributors/XXXM1R0XXX/marimo?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="assets/preview.webp"/>
+	<img src="assets/catwalk.webp"/>
 </p>
 
 ## Previews
 
 <details>
-<summary>🌻 Latte + 🪴 Frappé</summary>
-<img src="assets/latte-frappe.webp"/>
+<summary>🌻 Latte</summary>
+<img src="assets/latte.webp"/>
 </details>
 <details>
-<summary>🌻 Latte + 🌺 Macchiato</summary>
-<img src="assets/latte-macchiato.webp"/>
+<summary>🪴 Frappé</summary>
+<img src="assets/frappe.webp"/>
 </details>
 <details>
-<summary>🌻 Latte + 🌿 Mocha</summary>
-<img src="assets/latte-mocha.webp"/>
+<summary>🌺 Macchiato</summary>
+<img src="assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mocha.webp"/>
 </details>
 
 ## Usage
