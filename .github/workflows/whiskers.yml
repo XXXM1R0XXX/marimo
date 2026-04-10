@@ -1,0 +1,32 @@
+name: Update themes
+
+on:
+  push:
+    branches: [main]
+    paths: [templates/**]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  update-themes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install whiskers
+        uses: catppuccin/setup-whiskers@v1
+
+      - name: Generate themes
+        run: |
+          whiskers templates/marimo.tera --overrides '{"light_flavor": "latte", "dark_flavor": "frappe"}'
+          whiskers templates/marimo.tera --overrides '{"light_flavor": "latte", "dark_flavor": "macchiato"}'
+          whiskers templates/marimo.tera
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update themes"
