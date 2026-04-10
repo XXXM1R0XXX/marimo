@@ -95,8 +95,7 @@ The generated CSS files use the [`light-dark()`](https://developer.mozilla.org/e
 
 ## 💝 Thanks to
 
-- [m1r0](https://github.com/m1r0)
-- [Catppuccin](https://github.com/catppuccin)
+- [m1r0](https://github.com/XXXM1R0XXX)
 
 &nbsp;
 
@@ -105,7 +104,7 @@ The generated CSS files use the [`light-dark()`](https://developer.mozilla.org/e
 </p>
 
 <p align="center">
-	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+	Copyright &copy; 2026-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
 </p>
 
 <p align="center">

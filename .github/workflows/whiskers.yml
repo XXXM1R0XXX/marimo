@@ -5,8 +5,8 @@ on:
     branches: [main]
     paths: [templates/**]
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 0"
+  # schedule:
+  #   - cron: "0 0 * * 0"
 
 jobs:
   update-themes:
@@ -20,11 +20,11 @@ jobs:
       - name: Install whiskers
         uses: catppuccin/setup-whiskers@v1
 
+      - name: Install just
+        uses: extractions/setup-just@v2
+
       - name: Generate themes
-        run: |
-          whiskers templates/marimo.tera --overrides '{"light_flavor": "latte", "dark_flavor": "frappe"}'
-          whiskers templates/marimo.tera --overrides '{"light_flavor": "latte", "dark_flavor": "macchiato"}'
-          whiskers templates/marimo.tera
+        run: just build-all
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
