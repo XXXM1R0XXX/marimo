@@ -82,6 +82,23 @@ just build latte frappe
 
 The generated CSS files use the [`light-dark()`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark) CSS function, so they automatically switch between the light and dark variants based on your system or Marimo theme preference.
 
+## Custom fonts
+
+You can override Marimo's default fonts by building a theme with custom font parameters:
+
+```bash
+# Set a custom monospace (code) font
+just build-font latte mocha '"Comic Code Ligatures", monospace'
+
+# Font names with spaces must be quoted
+just build-font latte mocha '"Comic Code Ligatures", "Fira Mono", monospace'
+```
+
+Available font parameters:
+- `monospace_font` — code/editor font (overrides `--marimo-monospace-font`)
+- `text_font` — body/prose font (overrides `--marimo-text-font`)
+- `heading_font` — heading font (overrides `--marimo-heading-font`)
+
 ## 🙋 FAQ
 
 - Q: **_"Why are there only three files instead of four?"_**\
